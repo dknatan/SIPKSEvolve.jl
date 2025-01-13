@@ -1,5 +1,10 @@
 module SIPKSEvolve
+    using DifferentialEquations
 
-# Write your package code here.
+    include("functions.jl")
+
+    function ()
+        
+    end
 
 end

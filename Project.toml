@@ -3,7 +3,15 @@ uuid = "858d0c96-c897-40f4-8f20-db9cea1b8bca"
 authors = ["Natan Dominko Kobilica"]
 version = "1.0.0-DEV"
 
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
+DifferentialEquations = "7.15.0"
+Plots = "1.40.9"
+SparseArrays = "1.11.0"
 julia = "1.11.2"
 
 [extras]
